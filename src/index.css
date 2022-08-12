@@ -1,0 +1,69 @@
+body {
+  background-image: url('./assets/images/weather.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.weather {
+  position: relative;
+  top: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+.forecast {
+  color: #00AFF1;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.weather-info {
+  background-color: #ffffff;
+  opacity: 0.8;
+  width: 300px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.select {
+  padding: 7px 20px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  outline: none;
+}
+
+.select:hover {
+  background-color: rgb(235, 230, 230);
+  cursor: pointer;
+}
+
+.wind,
+.celsius {
+  font-weight: bold;
+}
+
+.city {
+  font-weight: 500;
+}
+
+.desc {
+  color: #00AFF1;
+}
